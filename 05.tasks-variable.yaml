@@ -7,5 +7,6 @@
     Trainer: Rohith
   tasks:
   - name: Printing varaibles
+    Course: Phython
     ansible.builtin.debug:
       msg: " course name is {{ Course }}, duration is : {{ Duration }}, thrainer is: {{ Trainer }}"
