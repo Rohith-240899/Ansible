@@ -1,0 +1,14 @@
+- name: data types
+  hosts: local
+  connection: local
+  vars:
+    Course: Ansible #string
+    Duration: 10 #number
+    is_live: true #boolean
+    tools: # List
+    - linux
+    - shell
+    - ansible
+    concepts: # dictionary or map
+      cloud: aws
+      cm: ansible
