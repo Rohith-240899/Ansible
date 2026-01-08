@@ -1,0 +1,15 @@
+- name: loops
+  hosts: local
+  connection: local
+  tasks:
+  - name: print names
+    ansible.builtin.debug:
+      msg: "Hello {{ item }}" # item is reserved
+    loop:
+    - Ramesh
+    - Suresh
+    - Raheem
+    - John
+
+
+    #in loops key the collections are called as items 
