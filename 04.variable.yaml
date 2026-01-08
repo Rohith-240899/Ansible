@@ -5,7 +5,7 @@
     Course: anisble
     Duration: 10hrs
     Trainer: Rohith
-  taks:
+  tasks:
   - name: print the course info
     ansible.builtin.debug:
       msg: "Course name is : {{ Course }}, Durations is: {{ Duration }}, Trainer is : {{ Trainer }}""
