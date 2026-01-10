@@ -1,11 +1,11 @@
-- name: looping names
+- name: looping Names
   Names:
   - Rohith
   - Hemaja
   - Subash
   - Madhuri
   tasks:
-    - name: printing the names
+    - name: printing the Names
       ansible.builtin.debug:
-        msg: "Printing the names {{item}}"
+        msg: "Printing the Names {{item}}"
       loop: "{{Names}}"
