@@ -6,7 +6,7 @@
     tags: # Dictionary or map
       Application: Payment
       Environment: Devops
-    listTaggs:
+    listTags:
     - key: Application
       value: Payment
     - key: Environment
@@ -26,4 +26,4 @@
 
   - name: converting list to map
     ansible.builtin.debug:
-      msg: " List tags map are: {{{ listTaggs | items2dict}}}"
+      msg: " maps are: {{ listTags | items2dict}}"
