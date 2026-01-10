@@ -1,4 +1,6 @@
 - name: looping list
+  hosts: local
+  connection: local
   list:
   - Rohith
   - Hemaja
