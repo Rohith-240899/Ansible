@@ -5,7 +5,7 @@
     technologies: Devops, Linux, Shell, Ansible #string
     name: "Rohith"
     gmail: ROHITHDFN@GMAIL.com
-    ipaddress: 2555.3334.523.32
+    ipaddress: 172.34.23.32
     tags: # Dictionary or map
       Application: Payment
       Environment: Devops
