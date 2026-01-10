@@ -1,11 +1,12 @@
 - name: looping list
   hosts: local
   connection: local
-  list:
-  - Rohith
-  - Hemaja
-  - Subash
-  - Madhuri
+  vars:
+    list:
+    - Rohith
+    - Hemaja
+    - Subash
+    - Madhuri
   tasks:
     - name: printing the list
       ansible.builtin.debug:
