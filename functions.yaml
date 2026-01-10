@@ -3,6 +3,8 @@
   connection: local
   vars:
     technologies: Devops, Linux, Shell, Ansible #string
+    name: "Rohith"
+    gmail: ROHITHDFN@GMAIL.com
     tags: # Dictionary or map
       Application: Payment
       Environment: Devops
@@ -41,3 +43,10 @@
       dest: ./student-data.json
       content: "{{ student_yaml | to_nice_json}}"
       
+  - name: convert uppercase
+    ansible.builtin.debug:
+      msg: "{{ name | upper }}"
+
+  - name: convert lowercase
+    ansible.builtin.debug:
+      msg: "{{ gmail | lower }}"
